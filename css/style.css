@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Roboto|Roboto+Condensed');
+
+body {
+	font-family: 'Catamaran', sans-serif;
+	background: #CFD8DC;
+	background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
+}
+.topnav, .navbar {
+	font-family: 'Roboto', sans-serif !important;
+}
+.topnav {
+	background: #34495e;
+	overflow: hidden;
+	padding: 4px 0;
+}
+.topnav a {
+	padding: 3px;
+	color: white;
+	font-size: 0.8rem;
+	text-decoration: none;
+}
+.topnav a:hover {
+	color: #2FB56C;
+}
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+}
+.nav-item a:hover {
+	/*background: #E53935;*/
+	color: #F5F5F5;
+	border-bottom: 2px solid #2FB56C;
+	padding-bottom: 10px;
+}
+.nav-link {
+	text-transform: capitalize;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.content-img-box {
+	margin: 0 auto;
+}
+
+.content-img-box img {
+	list-style-type: none;
+	display: inline;
+	width: 100px;
+	height: 100px;
+	margin: 0 2px;
+}
+
+.btn-group-custom .btn {
+	padding: .375rem 1rem;
+	font-size: .7rem;
+}
+
+.btn-group-custom>.btn:first-child {
+   	padding: .375rem 2rem;
+}
+
+.btn-group-custom>.btn:nth-child(2) {
+    padding: .375rem .8rem;
+}
+
+.jumbotron-index {
+	background: url('../assets/images/ZZ.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2rem 2rem;
+}
+
+.jumbotron-about {
+	background: url('../assets/images/c.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.container-login .card {
+	border-color: #27ae60;
+}
+
+.container-login .card-header {
+	background: #27ae60;
+}
+
+.container-login .card-header a {
+	font-weight: bold;
+	color: white;
+}
+
+.container-login .card-header img {
+	width: 25%;
+}
+
+.container-login i {
+	font-size: 4rem;
+}
+
+.container-login .btn-custom {
+	background-color: #27ae60;
+	color: white;
+}
+
+.container-signup .card {
+	border-color: #c0392b;
+}
+
+.container-signup .card-header {
+	background: #c0392b;
+}
+
+.container-signup i {
+	font-size: 4rem;
+}
+
+.container-signup .card-header a {
+	font-weight: bold;
+	color: white;
+}
+
+.container-signup .btn-custom {
+	background-color: #c0392b;
+	color: white;
+}
+
+.container-tutorials .row .col-md-2 img {
+	width: 100%;
+}
+
+.container-portfolio img {
+	width: 100%;
+}
+
+.modal-portfolio img {
+	height: 500px;
+}
+
+.container-contact .card {
+	border-color: #2980b9;
+}
+
+.container-contact .card-header {
+	background: #2980b9;
+}
+
+.container-contact .btn-custom {
+	background: #2980b9;
+	color: white;
+}
+
+.container-contact i {
+	font-size: 4rem;
+}
+
+.container-signup .form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-bottom: 1px solid #c0392b;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container-signup .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #c0392b;
+}
+
+.container-login .form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-bottom: 1px solid #27ae60;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container-login .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #27ae60;
+}
+
+.container-contact .form-control {
+    border: 0;
+    border-bottom: 1px solid #2980b9;
+    border-radius: 0;
+}
+
+.container-contact .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #2980b9;
+}
+
+.navbar.navbar-Applicant {
+	background-color: #8e44ad;
+	background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+}
+
+.navbar.navbar-Applicant .nav-item a:hover {
+	/*background: #E53935;*/
+	border-bottom: 2px solid #2FB56C;
+	padding-bottom: 10px;
+}
+
+.navbar.navbar-Employer {
+	background: #34495e !important;
+}
+
+.navbar.navbar-Employer .nav-item a:hover {
+	/*background: #E53935;*/
+	border-bottom: 2px solid #2FB56C;
+	padding-bottom: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-Employer.navbar-dark .navbar-nav .nav-link, .navbar-Applicant.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.container-profile .jumbotron {
+	background: url('https://static1.squarespace.com/static/53015420e4b0c37a4001756a/551815f9e4b07ea6d2843fa3/589fc45c1b10e3f74fa60b01/1486865502194/BarryButler_CAN7353-Panocopy.jpg?format=1500w');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 20%; 
+	color: white;
+	padding: 7rem 2rem;
+}
+
+.container-profile img {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.div-contact-details .row .col-md-5 {
+	padding-right: 0px !important;
+	font-weight: bold;
+}
+
+.div-contact-details .row {
+	margin-bottom: .5rem;
+}
+
+.card-my-portfolio .card-header {
+	background: #FF9800;
+}
+
+/*@media (min-width: 992px){
+	.modal-lg.modal-edit-profile {
+	    max-width: 1000px;
+	}
+}*/
+
+.nav-edit .nav-item a:hover {
+    color: #007bff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+}
+
+.nav-edit .nav-link.active, .nav-edit .show>.nav-link {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.nav-edit .nav-link.active:hover, .nav-edit .show>.nav-link:hover {
+    color: white;
+}
+
+.bg-contact-details {
+	background: #E0E0E0;
+}
+
+.nav-edit-profile .nav-item a:hover {
+	color: #007bff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+}
+
+.nav-edit-profile .nav-link.active, .nav-edit-profile .show>.nav-link {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.nav-edit-profile .nav-link.active:hover, .nav-edit-profile .show>.nav-link:hover {
+    color: white;
+}
+
